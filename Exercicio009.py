@@ -1,0 +1,2 @@
+n1 = int(input('Digite um número para descobrir sua tabuada'))
+print( 'A tabuada de {} é: \n 1 X {} = {}  \n 2 X {}= {}\n 3 X {}= {}\n 4 X {}= {}\n 5X {}= {}\n 6 X {}= {}\n 7 X {}= {}\n 8 X {}= {}\n 9 X {}= {}\n 10 X {}= {}'. format(n1, n1, n1*1 ,n1, n1*2 ,n1, n1*3 ,n1, n1*4, n1, n1*5,n1, n1*6,n1, n1*7,n1, n1*8,n1, n1*9,n1, n1*10 ))
