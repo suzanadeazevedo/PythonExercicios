@@ -4,7 +4,7 @@ Depois disso, mostre a listagem de números gerados e também indique o menor e 
 import random
 
 gerar_numeros = tuple (random.randint (1,100)
-for _ in range(5))
+                                            for _ in range(5))
 print(f'Tupla Gerada: {gerar_numeros}')
 
 ordenar_tupla = tuple(sorted(gerar_numeros))
